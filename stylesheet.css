@@ -1,0 +1,46 @@
+body {
+	background-color: black;
+}
+
+.main-body {
+	background-image: linear-gradient(#000000, #dddddd);
+	height: 80vh;
+	width: 100%;
+	text-align: center;
+	background-repeat: no-repeat;
+	border-radius: 80px;
+	overflow: hidden;
+}
+
+.spacer {
+	height: 30vh;
+	width: 100%;
+}
+
+.main-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#answer-button {
+	margin-top: 5%;
+	/*margin-bottom: 7%;*/
+	height: 300px;
+	width: 50%;
+	border-radius: 30px;
+	font-size: 3em;
+}
+
+#answer-section-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#answer-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5em;
+}
